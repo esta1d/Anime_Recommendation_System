@@ -31,16 +31,16 @@ The project represents a comprehensive research effort aimed at enhancing user i
 
 The notebook with all stages of the project can be found [here](https://github.com/esta1d/Anime_Recommendation_System/blob/main/DS_fn.ipynb)
 
-* Датасет был взят с **соревнования на [*Kaggle*]**(https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020)
+* Датасет был взят с **соревнования на [*Kaggle*](https://www.kaggle.com/datasets/hernan4444/anime-recommendation-database-2020)**
 * ***Python 11.x***
 * [***library versions***](https://github.com/esta1d/Anime_Recommendation_System/blob/main/requirements.txt)
 * [***download model***](https://drive.google.com/file/d/1BzMpr1UUXz966hNTMTSXC0tsIsMtVksA/view?usp=drive_link)
 
 
-`anime_model.h5` - pre-trained model.
+`anime_model.h5` - pre-trained model.<br>
 In order to load correctly, you need to execute the following code:
 
-```
+```python
 import keras
 import tensorflow as tf
 import tensorflow_text
@@ -48,7 +48,7 @@ import tensorflow_hub as hub
 import pickle
 
 # Путь к файлу с моделью
-model_path = 'YOUR_PATH/bert_tuned.h5'
+model_path = 'YOUR_PATH/anime_model.h5'
 
 # Загрузка модели из файла
 model = keras.models.load_model(
