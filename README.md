@@ -23,7 +23,7 @@ During this stage, we conducted the following steps:
 
 To build recommendations, we applied the technique of Collaborative Filtering. This method takes into account interactions between users and content. It considers the preferences of other users whose tastes are similar to those of the current user and suggests new anime that aligns with these preferences.
 
-─
+##
 
 The project represents a comprehensive research effort aimed at enhancing user interaction with anime platforms by offering personalized recommendations.
 
